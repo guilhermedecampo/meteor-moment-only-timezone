@@ -1,5 +1,5 @@
 Package.describe({
-    name: 'guilherme:moment-timezone',
+    name: 'guilherme:moment-only-timezone',
     summary: 'Only moment timezone support for moment.js, packaged for Meteor',
     version: '0.3.0',
     git: 'https://github.com/guilhermedecampo/meteor-moment-only-timezone'
