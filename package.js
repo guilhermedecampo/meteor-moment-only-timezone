@@ -1,8 +1,8 @@
 Package.describe({
-    name: 'risul:moment-timezone',
-    summary: 'Timezone support for moment.js, packaged for Meteor',
+    name: 'guilherme:moment-timezone',
+    summary: 'Only moment timezone support for moment.js, packaged for Meteor',
     version: '0.3.0',
-    git: 'https://github.com/risul/meteor-moment-timezone'
+    git: 'https://github.com/guilhermedecampo/meteor-moment-only-timezone'
 });
 
 Package.on_use(function (api, where) {
