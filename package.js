@@ -6,14 +6,8 @@ Package.describe({
 });
 
 Package.on_use(function (api, where) {
-    where = where || ['client', 'server']
-
-    var momentPackageName = !!Package.onUse ? "momentjs:moment@2.9.0" : "moment"
-    api.use(momentPackageName, where);
-    if (api.imply) {
-        api.imply(momentPackageName, where);
-    }
-    api.add_files('pre.js', where);
-    api.add_files('lib/moment-timezone-with-data.min.js', where);
-    api.add_files('post.js', where);
+    both = ['client', 'server']
+    api.add_files('pre.js', both);
+    api.add_files('lib/moment-timezone-with-data.min.js', both);
+    api.add_files('post.js', both);
 });
