@@ -5,7 +5,7 @@
 
 ##Install
 ```bach
-meteor add risul:moment-timezone
+meteor add guilherme:moment-only-timezone
 ```
 
 IANA Time Zone Database + [Moment.js](http://momentjs.com).
